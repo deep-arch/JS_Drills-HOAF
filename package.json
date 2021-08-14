@@ -1,0 +1,24 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module", 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep-arch/JS_Drills-HOAF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deep-arch/JS_Drills-HOAF/issues"
+  },
+  "homepage": "https://github.com/deep-arch/JS_Drills-HOAF#readme"
+}
