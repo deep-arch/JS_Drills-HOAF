@@ -1,4 +1,4 @@
-import { items } from "../../Inventory/inventory.js";
+import { items } from "../Inventory/inventory.js";
 import { reduce } from "../reduce.js";
 const cb = (startingValue, currentValue) => 
 {

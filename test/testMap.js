@@ -1,4 +1,4 @@
-import { items } from "../../Inventory/inventory.js";
+import { items } from "../Inventory/inventory.js";
 import { map } from "../map.js";
 const cb = (value, index) => 
 {
