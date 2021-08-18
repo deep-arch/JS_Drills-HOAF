@@ -7,17 +7,14 @@
 // }
 
 
-export function reduce(elements, cb, startingValue, startingIndex = 0)
+export function reduce(elements, cb, startingValue)
 {
-  if(elements instanceof Array)
+  let reduced = startingValue || elements[0];
+  if (!reduced)
+    return [];
+  for(let i = elements.indexOf(reduced) + 1 ; i < elements.length; i++)
   {
-    let reduced = startingValue || elements.shift() || [];
-    for(let i = startingIndex ; i < elements.length; i++)
-    {
-      reduced = cb(reduced, elements[i]);
-    }
-    return reduced;
+    reduced = cb(reduced, elements[i]);
   }
-  else
-    console.log('instanceError: Parameter passed is not an Array');
+  return reduced;
 }
